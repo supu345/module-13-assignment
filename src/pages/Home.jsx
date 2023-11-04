@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "../components/Button";
 
 const Home = () => {
   return (
@@ -15,9 +16,9 @@ const Home = () => {
           delectus labore deleniti?
         </p>
         <div className=" lg:pl-44">
-          <button className="bg-green-700 text-white p-2 rounded">
-            Learn More
-          </button>
+          <div className=" flex justify-center lg:justify-start">
+            <Button title="Learn More" />
+          </div>
         </div>
       </div>
     </div>

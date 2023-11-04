@@ -1,11 +1,13 @@
 import React from "react";
 import img from "../assets/images/contact.jpg";
+import Button from "../components/Button";
+import Heading from "../components/Heading";
 const Contact = () => {
   return (
     <div className="min-h-screen justify-center items-center lg:px-32 px-5 pt-10">
-      <h1 className=" font-semibold text-4xl text-yellow-700  lg:justify-center items-center pt-10">
-        Contact Us
-      </h1>
+      <div className=" font-semibold text-4xl text-yellow-700  lg:justify-center items-center pt-10">
+        <Heading title1="Contact" title2="Us? " />
+      </div>
 
       <div className=" flex flex-col md:flex-row justify-between w-full">
         <form className=" w-full md:w-2/5 space-y-5 pt-20">
@@ -41,9 +43,9 @@ const Contact = () => {
           </div>
 
           <div className=" flex flex-row justify-center">
-            <button className="bg-yellow-400 text-white p-2 rounded">
-              Learn More
-            </button>
+            <div className=" flex justify-center lg:justify-start">
+              <Button title="Contact" />
+            </div>
           </div>
         </form>
 

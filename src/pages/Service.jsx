@@ -1,14 +1,16 @@
 import React from "react";
 import img from "../assets/images/service.jpg";
+import Button from "../components/Button";
+import Heading from "../components/Heading";
 const Service = () => {
   return (
     <div className="min-h-screen justify-center items-center lg:px-32 px-5">
       <img src={img} alt="img" size={50} />
 
       <div className="space-y-4 lg:pt-14">
-        <h1 className=" font-semibold text-4xl text-fuchsia-500  lg:justify-center">
-          Project
-        </h1>
+        <div className=" font-semibold text-4xl text-yellow-700  lg:justify-center items-center pt-10">
+          <Heading title1="Service" />
+        </div>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi
           architecto quisquam delectus minima perferendis nulla quia nisi
@@ -22,9 +24,9 @@ const Service = () => {
           veritatis facere. Magnam!
         </p>
         <div className=" flex justify-center lg:justify-start">
-          <button className="bg-fuchsia-700 text-white p-2 rounded">
-            Learn More
-          </button>
+          <div className=" flex justify-center lg:justify-start">
+            <Button title="Service" />
+          </div>
         </div>
       </div>
     </div>
