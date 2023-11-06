@@ -7,12 +7,14 @@ const Navbar = () => {
       <div>
         <div className=" flex flex-row justify-between p-2 md:px-32 px-5 bg-white shadow-[0_3px_10px_rgb(0,0,0,0.2)]">
           <div className=" flex flex-row items-center cursor-pointer">
-            <span>
-              <FcHome
-                size={32}
-                className="shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
-              />
-            </span>
+            <NavLink to="/">
+              <span>
+                <FcHome
+                  size={32}
+                  className="shadow-[0_3px_10px_rgb(0,0,0,0.2)]"
+                />
+              </span>
+            </NavLink>
             <h1 className=" text-xl font-semibold p-3 text-blue-900 ">
               MyHome
             </h1>

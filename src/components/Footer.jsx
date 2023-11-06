@@ -25,13 +25,13 @@ const Footer = () => {
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/about"
             >
               About
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/blog"
             >
               Blog
             </a>
@@ -42,19 +42,19 @@ const Footer = () => {
           <nav className=" flex flex-col gap-2">
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/project"
             >
               Project
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/service"
             >
               Service
             </a>
             <a
               className=" hover:text-brightColor transition-all cursor-pointer"
-              href="/"
+              href="/contact"
             >
               Contact
             </a>

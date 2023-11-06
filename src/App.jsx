@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/blog" element={<Blog />} />
         <Route path="/service" element={<Service />} />
       </Routes>
+
       <Footer />
     </BrowserRouter>
   );
